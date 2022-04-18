@@ -1,5 +1,5 @@
 body {
-
+	float: left;
 }
 
 h1 {
@@ -17,13 +17,16 @@ main {
 	border: thick solid red;
 	width: 50%;
 	height: 50%;
+
+	/* float: left; */
 }
 
 aside {
 	border: thick solid green;
-	background-color: yellow;
-	float: right;
+	background-color: orange;
+	/* float: right; */
 	width: 30%;
+	
 }
 
 
