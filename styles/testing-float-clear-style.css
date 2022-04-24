@@ -1,14 +1,21 @@
+.wrapper {
+	background: lightblue;
+}
+
 .blue {
 	width: 100px;
 	height: 100px;
 	background-color: blue;
-
+	float: left;
 }
 
 .green {
 	width: 100px;
 	height: 100px;
 	background-color: green;
+	float: left;
+	clear: both;
+
 
 }
 
@@ -16,6 +23,7 @@
 	width: 100px;
 	height: 100px;
 	background-color: yellow;
+	float: left;
 
 }
 
@@ -23,13 +31,14 @@
 	width: 100px;
 	height: 100px;
 	background-color: red;
-
+	float: left;
 }
 
 .purple {
 	width: 100px;
 	height: 100px;
 	background-color: purple;
-
+	float: left;
+	clear: both;
 }
 

@@ -7,31 +7,51 @@ h1 {
 	/* border: thick double #32a1ce; */
 	border: thick solid red;
 
+
+}
+
+.website-name {
+	margin-left: 25%;
 }
 
 .middle_of_page {
 	background-color: #00FFFF;
+	height: 700px;
+	width: 600px;
 }
 
+.wrapper {
+
+}
+
+
+
 main {
+	box-sizing: border-box;
 	border: thick solid red;
-	width: 50%;
-	height: 50%;
+	width: 70%;
+	height: 100%;
+	float: left;
 
 	/* float: left; */
 }
 
 aside {
-	border: thick solid green;
-	background-color: orange;
+	box-sizing: border-box;
+	border: thick solid red;
 	/* float: right; */
 	width: 30%;
-	
+	height: 100%;
+	float: left;
+	padding: 10px;
+
+
 }
 
 
 header {
 	border: thick solid red;
+
 }
 
 .top_bar li {
@@ -43,8 +63,18 @@ ul {
 	border: thick solid red;
 }
 
+aside ul li {
+	border-color: green;
+	list-style: none;
+	margin-top: 40px;
+	border-color: red;
+	
+
+}
+
 footer {
 	border: thick solid red;
+	clear: both;
 }
 
 
