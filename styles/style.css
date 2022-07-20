@@ -12,7 +12,7 @@ body {
 h1 {
 	/*border: solid;*/
 	/* border: thick double #32a1ce; */
-	border: thick solid red;
+	/* border: thick solid red; */
 
 
 }
@@ -36,17 +36,18 @@ h1 {
 
 main {
 	box-sizing: border-box;
-	border: thick solid red;
+	/* border: thick solid red; */
 	width: 70%;
 	height: 100%;
 	float: left;
+	padding-left: 1em;
 
 	/* float: left; */
 }
 
 aside {
 	box-sizing: border-box;
-	border: thick solid red;
+	/* border: thick solid red; */
 	/* float: right; */
 	width: 30%;
 	height: 100%;
@@ -58,7 +59,7 @@ aside {
 
 
 header {
-	border: thick solid red;
+	/*border: thick solid red;*/
 	width: 100%;
 
 
@@ -68,7 +69,7 @@ header {
 .search_and_log {
 	display: flex;
 	justify-content: space-between;
-	border: thick solid yellow;
+	/*border: thick solid yellow;*/
 }
 
 .log_in{
@@ -78,7 +79,7 @@ header {
 }
 
 .search_and_log div {
-	border: thick solid black;
+	/*border: thick solid black;*/
 	/*I think it has to do with anchor styles or specificity..*/
 }
 
@@ -102,6 +103,7 @@ a {
    padding-right: 1em;
    margin: -1em;
 
+
 }
 
 aside a{
@@ -115,7 +117,7 @@ aside a{
 }
 
 ul {
-	border: thick solid red;
+	/*border: thick solid red;*/
 }
 
 
@@ -159,10 +161,10 @@ a:active {
 
 
 aside ul li {
-	border-color: green;
+	/*border-color: green;*/
 	list-style: none;
 	margin-top: 40px;
-	border-color: red;
+	/*border-color: red;*/
 
 
 }
@@ -172,10 +174,14 @@ main {
 }
 
 footer {
-	border: thick solid red;
+	/*border: thick solid red;*/
 	clear: both;
 	width: 100%;
 }
+
+
+
+
 
 
 
