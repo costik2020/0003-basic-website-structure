@@ -179,7 +179,66 @@ footer {
 	width: 100%;
 }
 
+/*Add some responsive behaviour*/
 
+/*Phone view*/
+
+@media screen and (max-width: 700px) {
+	.top_bar_wraper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.top_bar {
+	  display: flex;
+	  /*justify-content: space-around;*/
+	  /*border: thick solid red;*/
+	  width: 300px;
+	  flex-wrap: wrap;
+	  gap: 0.625%;
+	  /*background-color: yellow;*/
+	}
+
+	.search_and_log {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*border: thick solid yellow;*/
+	}
+
+	main {
+		width: 100%;
+		height: auto;
+		padding-bottom: 30px;
+		margin-bottom: 10px
+
+	}
+
+	.middle_of_page {
+		display: flex;
+		flex-flow: column;
+	}
+
+	aside a{
+	   display: inline-block;
+	   position: relative;
+	   z-index: 1;
+	   padding: 1em;
+	   padding-left: 11em;
+	   padding-right: 11em;
+	   width: 100%;
+	   /*border: thick solid red;*/
+
+
+	}
+
+	footer{
+		margin-top: 2em;
+	}
+
+
+
+}
 
 
 

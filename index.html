@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		
 		<meta charset="utf-8">
 		<title>basic-website-structure</title>
 		<link rel="stylesheet" href="styles/style.css">
@@ -9,14 +11,17 @@
 		<header>
 			<h1 class="website-name"> A COMPANY NAME</h1>
 			<!--Here are the Header buttons for the header bar-->
-			<ul class="top_bar">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Solutions</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
+			<div class="top_bar_wraper">
+				<ul class="top_bar">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Solutions</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+
 
 			<div class="search_and_log">
 				<div>
@@ -75,10 +80,13 @@
 					<li><a href="#">Home/Garden</a></li>
 				</ul>
 			</aside>
+
+			<footer>
+				<p>Copyright  © by Myself</p>
+			</footer>
+
 		</div>
 
-		<footer>
-			<p>Copyright  © by Myself</p>
-		</footer>
+
 	</body>
 </html>
